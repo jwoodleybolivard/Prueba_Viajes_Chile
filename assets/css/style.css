@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,300;1,400&display=swap");
+
+/* formateo del body e Aplicando la fuente Lato con peso 400 (Regular) a todo el cuerpo del documento */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  color: white !important;
+}
+
+/* Aplicando la fuente Lato con estilo itálico y peso 400 (Regular) a los encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Aplicando la fuente Lato con estilo itálico y peso 300 (Regular) a los parrafos */
+p,
+.latoitalic100 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.4rem;
+}

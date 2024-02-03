@@ -20,24 +20,19 @@
     />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Importados en Style.css -->
 
     <!-- Shortcut Icon -->
     <link rel="shortcut icon" type="image/svg" href="assets/img/viajes.svg" />
 
     <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="/assets/css/style.css" /> -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
     <!-- Título de la Página -->
     <title>Viajes Chile</title>
   </head>
 
-  <body class="bg-black text-white">
+  <body>
     <!-- Navbar -->
     <nav
       class="navbar navbar-expand-lg fixed-top py-4 px-0 m-0 w-auto"
@@ -55,7 +50,7 @@
           Viajes Chile
         </a>
         <button
-          class="navbar-toggler me-1 fs-5 border border-white"
+          class="navbar-toggler me-1 border border-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navdivider"
@@ -72,20 +67,16 @@
           <ul class="navbar-nav text-center">
             <!-- Elementos de Navegación -->
             <li class="nav-item">
-              <a class="nav-link text-white fs-5" href="#">Inicio</a>
+              <a class="nav-link fs-5" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5" href="#quienes_somos"
-                >Quienes somos</a
-              >
+              <a class="nav-link fs-5" href="#quienes_somos">Quienes somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5" href="#destacados"
-                >Destacados</a
-              >
+              <a class="nav-link fs-5" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fs-5" href="#contacto">Contacto</a>
+              <a class="nav-link fs-5" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -211,7 +202,7 @@
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
         <!-- Tarjetas de Destacados -->
         <div class="col my-3">
-          <div class="card h-100 bg-info text-white">
+          <div class="card h-100 bg-info">
             <img
               src="assets/img/card1.jpg"
               class="card-img-top img-fluid"
@@ -229,7 +220,7 @@
           </div>
         </div>
         <div class="col my-3">
-          <div class="card h-100 bg-info text-white">
+          <div class="card h-100 bg-info">
             <img
               src="assets/img/card2.jpg"
               class="card-img-top img-fluid"
@@ -247,7 +238,7 @@
           </div>
         </div>
         <div class="col my-3">
-          <div class="card h-100 bg-info text-white">
+          <div class="card h-100 bg-info">
             <img
               src="assets/img/card3.jpg"
               class="card-img-top img-fluid"
@@ -267,7 +258,7 @@
           </div>
         </div>
         <div class="col my-3">
-          <div class="card h-100 bg-info text-white">
+          <div class="card h-100 bg-info">
             <img
               src="assets/img/card4.jpg"
               class="card-img-top img-fluid"
@@ -289,29 +280,37 @@
     <!-- /Sección de Destacados -->
 
     <!-- Formulario de Contacto -->
-    <section class="container text-white my-5" id="contacto">
+    <section class="container my-5" id="contacto">
       <h2 class="text-center my-4">CONTACTO</h2>
       <hr />
       <!-- Formulario de Contacto con Campos -->
       <div class="mb-3">
         <label for="formGroupExampleInput" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" />
+        <input
+          type="text"
+          class="form-control text-dark latoitalic100"
+          id="formGroupExampleInput"
+        />
       </div>
       <div class="mb-3">
         <label for="formGroupExampleInput2" class="form-label">Asunto</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" />
+        <input
+          type="text"
+          class="form-control text-dark latoitalic100"
+          id="formGroupExampleInput2"
+        />
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label"
           >Mensaje</label
         >
         <textarea
-          class="form-control"
+          class="form-control text-dark latoitalic100"
           id="exampleFormControlTextarea1"
           rows="5"
         ></textarea>
       </div>
-      <button type="submit" class="btn bg-info text-white">Enviar</button>
+      <button type="submit" class="btn bg-info">Enviar</button>
     </section>
     <!-- /Formulario de Contacto -->
 
@@ -319,30 +318,22 @@
     <footer class="container-fluid py-4 bg-info">
       <div class="container text-center">
         <div class="row">
-          <div class="col-mg-6 col-lg-6 m-1">
+          <div class="col-mg-6 col-lg-6 mb-1">
             <!-- Enlace del Footer -->
-            <a href="#" class="text-white text-decoration-none fs-4"
-              >VIAJES CHILE</a
-            >
+            <a href="#" class="text-decoration-none fs-4">VIAJES CHILE</a>
           </div>
-          <div class="col-mg-6 col-lg-6">
+          <div class="col-mg-6 col-lg-6 mt-1">
             <!-- Enlaces a Redes Sociales -->
-            <a href="https://github.com/" target="_blank" class="text-white"
+            <a href="https://github.com/" target="_blank"
               ><i class="fa-brands fa-square-github fa-2xl px-2"></i
             ></a>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              class="text-white"
+            <a href="https://www.linkedin.com/" target="_blank"
               ><i class="fa-brands fa-linkedin fa-2xl px-2"></i
             ></a>
-            <a href="https://twitter.com/" target="_blank" class="text-white"
+            <a href="https://twitter.com/" target="_blank"
               ><i class="fa-brands fa-square-x-twitter fa-2xl px-2"></i
             ></a>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              class="text-white"
+            <a href="https://www.facebook.com/" target="_blank"
               ><i class="fa-brands fa-square-facebook fa-2xl px-2"></i
             ></a>
           </div>

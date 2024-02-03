@@ -5,13 +5,8 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: black;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-}
-
-* {
-  color: white !important;
 }
 
 /* Aplicando la fuente Lato con estilo itálico y peso 400 (Regular) a los encabezados */
